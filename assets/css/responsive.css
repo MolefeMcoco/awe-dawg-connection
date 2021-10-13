@@ -1,0 +1,145 @@
+.logo{
+	height: 300px;
+}
+
+#logo{
+		padding: 0px !important;
+	}
+
+.one_third{
+	float: none;
+	width: 100%;
+}
+
+.right_side{
+	min-height: 200px;
+}
+
+#profile{
+	border:none !important;
+	padding: 30px ;	
+}
+
+#footer ul{
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+@media screen and (max-width: 767px){
+
+	.navbar .navbar-right{
+		margin-bottom: 8px;
+	}
+
+	#page-intro{
+		text-align: left;
+		width: 90% !important;
+		padding: 25px !important;
+	}
+
+	#main-paragraphs{
+		padding: 40px;
+	}
+
+	#social-media{
+		border: none !important;
+	}
+
+	#links{
+		border-right: none !important;
+	}
+
+	#digital{
+		min-height: 530px;
+	}
+
+	#digital_image{
+		clear: both;
+	}
+
+	#digital_image,#networking_image{
+		right: 0px !important;
+		margin: 10px;
+	}
+
+	#software_image,#technical_image{
+		left: 0px !important;
+		margin: 10px;
+	}
+
+	
+
+}
+
+@media screen and (max-width: 425px){
+	
+
+	.logo{
+		height: 130px;
+	}
+
+	#header h1{
+		font-size: 1.5em;
+	}
+
+	#header p{
+		font-size: .6em;
+	}
+
+	.navbar-fixed-top {
+   		margin-left: 0px !important; 
+    	margin-right: 0px !important;
+	}
+
+
+	#page-intro{
+		width: 100%;
+		margin: 10px 0px !important;
+		text-align: normal !important;
+	}
+
+	#main-paragraphs{
+		padding: 5px;
+	}
+
+	.para{
+		padding: 10px;
+	}
+
+
+	#banner{
+		padding: 5px;	
+	}
+
+	.bottom h2{
+		padding: 5px;
+		font-size: 20px;
+	}
+
+	#image-line{
+		padding: 5px;
+	}
+
+	#image-line img{
+		height: 200px;
+		margin: 10px 0px;
+	}
+
+	
+
+	#digital ul{
+		float: none;
+		width: 100%;
+	}
+
+	#pricelist{
+		padding: 20px;
+	}
+
+	#digital_image,#networking_image,#software_image,#technical_image{
+		min-height: 200px !important;
+	}
+
+
+}
